@@ -1,0 +1,25 @@
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.sidebarOptions h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sidebarOptions .sidebarOption-icon{
+    font-size: 18px !important;
+    margin-right: 20px;
+}
+.optionChannel{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.optionChannel span{
+    font-weight: 600;
+    margin-right: 7px;
+}

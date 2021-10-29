@@ -1,0 +1,50 @@
+.chat{
+    flex: 2;
+    margin-left: 260px;
+    width: 20%;
+    bottom: 0;
+    right: 0;
+    margin-top: 40px;
+    word-break: break-all;
+}
+.chat-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    width: 81%;
+    background:white;
+    margin-bottom: 70px;
+}
+.chatTop-left{
+    display: flex;
+    background: white;
+    color: black;
+    align-items: center;
+}
+.chatTop-left h4 strong{
+    color: black;
+}
+.chatTop-right{
+    display: flex;
+    align-items: center;
+}
+.chatTop-left h4{
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.chatTop-right p{
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+.chatTop-right .info-icon{
+    font-size: 17px !important;
+}
+.chatTop-left .star-icon{
+    font-size: 17px !important;
+}
+.chatBottom{
+    padding: 100px;
+}

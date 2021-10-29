@@ -1,0 +1,17 @@
+.chat-input{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    width: 80%;
+    bottom: 20px;
+}
+form input{
+    width:80%;
+    height: 40px;
+    outline: none;
+    font-size: 17px;
+}
+form button{
+    display: none;
+}

@@ -1,0 +1,32 @@
+.login{
+    background:#4A154B ;
+    height: 100vh;
+}
+.loginz{
+    top:50%;
+    left:42%;
+    position: absolute;
+    transform: translate(-30%,-50%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.login img{
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.loginz button{
+    padding: 10px;
+    cursor: pointer;
+    background:green;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+}
